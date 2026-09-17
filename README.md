@@ -41,9 +41,30 @@ The project includes the following steps:
 
 Results
 
-The machine learning model was evaluated using standard classification metrics.
+## Results
 
-Detailed results and visualizations are available in the Jupyter Notebook.
+The Logistic Regression model achieved an accuracy of 88.04% on the test dataset.
 
-Author
-Sama Yousefy
+### Evaluation Metrics
+
+- Accuracy: 88.04%
+- Jaccard Score (Unsurvived Class): 84.18%
+
+### Confusion Matrix
+
+The confusion matrix shows the model's prediction performance:
+
+| True Label | Predicted Survived (1) | Predicted Unsurvived (0) |
+|---|---:|---:|
+| Survived (1) | 102 | 50 |
+| Unsurvived (0) | 0 | 266 |
+
+The model correctly classified 368 out of 418 test samples.
+## Author
+
+## Author
+
+**Sama Yousefy**
+
+- GitHub: [sama-yousefy](https://github.com/sama-yousefy)
+- Project Repository: [Titanic Survival Prediction](https://github.com/sama-yousefy/Titanic-machine-learning)
